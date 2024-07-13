@@ -1,4 +1,4 @@
-@use '../reset/colors';
+@use '../reset/colors' as *;
 @use './styles' as *;
 
 .nav-link {

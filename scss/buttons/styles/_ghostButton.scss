@@ -1,3 +1,5 @@
+@use '../../reset/colors' as *;
+
 @mixin ghostButton {
 	&:link,
 	&:visited,

@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 16px;
   font-optical-sizing: auto;
@@ -520,6 +524,28 @@ body {
   font-weight: 400;
   color: hsl(240, 37%, 22%);
   background: hsl(240, 51%, 92%);
+}
+
+.back-to-top {
+  transition: background 20ms ease-in 0s;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid hsla(45, 8%, 20%, 0.16);
+  background-color: #fff;
+  position: fixed;
+  z-index: 999;
+  right: 24px;
+  bottom: 24px;
+}
+.back-to-top:link, .back-to-top:visited, .back-to-top:active {
+  text-decoration: none;
+  color: var(--primary-20);
 }
 
 h1 {

@@ -1,5 +1,11 @@
-@use './styles/' as *;
+@use '../reset/colors' as *;
+@use './styles' as *;
 
-a[href='#back-to-top'] {
+.back-to-top {
 	@include ghostButton;
+	background-color: #fff;
+	position: fixed;
+	z-index: 999;
+	right: 24px;
+	bottom: 24px;
 }
