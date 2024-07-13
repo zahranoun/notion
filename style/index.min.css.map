@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/reset/_colors.scss","../scss/reset/_box-sizing.scss","../scss/headings/_h1.scss"],"names":[],"mappings":"AAAA,MACE,8BAAA,CCDF,qBAGE,QAAA,CACA,SAAA,CACA,qBAAA,CCHF,GACE,cAAA,CACA,uBAAA","file":"index.min.css"}
+{"version":3,"sources":["../scss/reset/_colors.scss","../scss/reset/_box-sizing.scss","../scss/headings/_h1.scss"],"names":[],"mappings":"AAAA,MACE,8BAAA,CCDF,qBAGE,QAAA,CACA,SAAA,CACA,qBAAA,CAGF,KACE,wBAAA,CACA,eAAA,CACA,iBAAA,CACA,0LAAA,CCVF,GACE,cAAA,CACA,uBAAA,CACA,eAAA","file":"index.min.css"}
