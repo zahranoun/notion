@@ -1,4 +1,4 @@
-.tag {
+@mixin tagStyles {
 	display: flex;
 	align-items: center;
 	height: 20px;
@@ -7,6 +7,22 @@
 	padding-right: 6px;
 	font-size: 14px;
 	font-weight: 400;
-	color: rgb(76, 35, 55);
-	background: rgb(245, 224, 233);
+}
+
+.pink-tag {
+	@include tagStyles;
+	color: hsl(331, 37%, 22%);
+	background: hsl(334, 51%, 92%);
+}
+
+.green-tag {
+	@include tagStyles;
+	color: hsl(180, 37%, 22%);
+	background: hsl(180, 51%, 92%);
+}
+
+.blue-tag {
+	@include tagStyles;
+	color: hsl(240, 37%, 22%);
+	background: hsl(240, 51%, 92%);
 }

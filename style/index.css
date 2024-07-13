@@ -483,7 +483,7 @@ body {
   color: var(--primary-20);
 }
 
-.tag {
+.pink-tag {
   display: flex;
   align-items: center;
   height: 20px;
@@ -492,13 +492,38 @@ body {
   padding-right: 6px;
   font-size: 14px;
   font-weight: 400;
-  color: rgb(76, 35, 55);
-  background: rgb(245, 224, 233);
+  color: hsl(331, 37%, 22%);
+  background: hsl(334, 51%, 92%);
+}
+
+.green-tag {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border-radius: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(180, 37%, 22%);
+  background: hsl(180, 51%, 92%);
+}
+
+.blue-tag {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border-radius: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(240, 37%, 22%);
+  background: hsl(240, 51%, 92%);
 }
 
 h1 {
   font-size: 32px;
-  padding-bottom: 16px;
   color: var(--primary-20);
   font-weight: 750;
   box-shadow: hsl(60, 4%, 91%) 0px -1px 0px inset;
@@ -508,17 +533,17 @@ h2 {
   font-weight: 600;
   font-size: 28px;
   color: var(--primary-20);
-  margin-bottom: 16px;
 }
 
 h3 {
   font-weight: 500;
   font-size: 16px;
   color: var(--primary-20);
-  margin-bottom: 16px;
 }
 
-h2 {
+p,
+ul,
+li {
   font-weight: 400;
   font-size: 16px;
   color: var(--primary-50);
