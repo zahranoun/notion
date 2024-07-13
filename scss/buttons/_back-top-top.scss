@@ -1,0 +1,5 @@
+@use './styles/' as *;
+
+a[href='#back-to-top'] {
+	@include ghostButton;
+}
