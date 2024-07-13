@@ -1,0 +1,8 @@
+@use '../reset/colors';
+
+h2 {
+	font-weight: 600;
+	font-size: 28px;
+	color: var(--primary-20);
+	margin-bottom: 16px;
+}
