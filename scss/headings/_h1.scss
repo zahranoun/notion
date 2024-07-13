@@ -1,3 +1,6 @@
+@use "../reset/colors";
+
 h1 {
-  font-size: 20px;
+  font-size: 32px;
+  color: var(--primary-20);
 }

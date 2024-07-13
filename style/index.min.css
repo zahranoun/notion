@@ -1,1 +1,1 @@
-h1{font-size:20px}/*# sourceMappingURL=index.min.css.map */
+:root{--primary-20: hsl(45, 8%, 20%)}*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}h1{font-size:32px;color:var(--primary-20)}/*# sourceMappingURL=index.min.css.map */
